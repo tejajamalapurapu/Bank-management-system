@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdio.h>
 #include<fstream>
-#include<windows.h>
+#include<windows.h>   //BANK MANAGEMENT SYSTEM
 using namespace std;
 class bank{
   private:
@@ -12,7 +12,7 @@ class bank{
   void Menu();
   void bank_management();            //class which contains important functions
   void Atm_management();
-  void new_user();
+  void new_user();                     
   void Already_user();
   void deposit_amount();
   void withdraw_amount();
